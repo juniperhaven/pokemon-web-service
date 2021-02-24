@@ -1,0 +1,38 @@
+body {font-family:georgia;}
+
+#pokemon {
+    max-width:600px;
+    margin:5px;
+    padding:2px;
+}
+
+#pokemon > div {
+    padding:5px;
+    min-height:40px;
+    margin-bottom:5px;
+    border:1px solid #E77D2C;
+    -moz-border-radius: 5px; 
+    -webkit-border-radius: 5px;
+    border-radius: 5px;
+    position:relative; /* required to place #pic to right */
+}
+
+#pokemon h3 {
+    font-family:georgia;
+    padding:5px;
+    color:#fff;
+    background:#E77D2C;
+    margin:0;
+}
+
+/* for some reason when I used pic for the styling
+it didn't work
+so instead I just styled the image tag
+because the icons are the only images on the page
+*/
+img {
+    max-width: 70px;
+    position:absolute;
+    right:10px;
+    top:10px;
+}
